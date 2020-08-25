@@ -10,3 +10,84 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color-selected {
+    background-color: #030318;
+    padding: 10px 20px;
+    border: 1px solid #030318;
+    border-radius: 20px;
+    color: #9f9fa8;
+    margin: 60px 0;
+    font-size: 12px;
+    box-shadow: 4px 4px 9px 5px rgba(85, 96, 89, 0.4);
+}
+
+span {
+    font-weight: 800;
+}
+
+.titulo {
+    font-weight: 800;
+    font-size: 25px;
+    color: #030318;
+    margin-bottom: 20px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 800px;
+    margin: 40px 0;
+}
+
+.tarjeta {
+    border-radius: 10px;
+    display: flex;
+    width: 130px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    box-shadow: 8px 7px 13px 7px rgba(85, 96, 89, 0.4);
+}
+
+.color {
+    width: 120px;
+    height: 165px;
+    border-radius: 6px;
+    margin: 8px 0;   
+}
+
+.color.first {
+    background-color: #EEEDF0;
+}
+.color.second {
+    background-color: #A1B5C1;
+}
+.color.third {
+    background-color: #F9ACA7;
+}
+.color.fourth {
+    background-color: #68747D;
+}
+.color.fifth {
+    background-color: #CF365F;
+}
+
+.hex {
+    align-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #68747D
+}
+
